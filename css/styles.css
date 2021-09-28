@@ -1,0 +1,164 @@
+/* font family
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* Icon Source for Apple and Google Play Icons */
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css 43");
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+p {
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.bg-pink {
+  background-color: #ff4c68;
+  color: #fff;
+}
+#title {
+  text-align: left;
+  z-index: -1;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+.iphone {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  right: 24%;
+}
+@media (max-width: 1000px) {
+  .title-section {
+    text-align: center;
+  }
+  .card {
+    margin: 1% 5%;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+    margin: 20% 0;
+  }
+  .big-heading {
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .big-heading {
+    font-size: 2.4rem;
+  }
+  .card {
+    margin: 3% 6%;
+  }
+}
+/* features */
+.pink {
+  color: #ef8172;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+.pink:hover {
+  color: #ff4c68;
+}
+#features {
+  background-color: #fff;
+  position: relative;
+}
+#features .col {
+  padding: 5%;
+}
+#features .col p {
+  font-size: 0.8rem;
+}
+
+/* testimonials sections */
+#testimonials {
+  margin: 0;
+}
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+/* Press */
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* card deck */
+#pricing {
+  margin: 4%;
+}
+#pricing h2 {
+  color: #444444;
+}
+.card-price {
+  padding: 3% 2%;
+}
+
+/* footer */
+#cta h3 {
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+#footer {
+  margin: 2% auto;
+}
+#footer p {
+  font-size: 0.8rem;
+}
+.icon {
+  margin: 4px 4px 10px;
+}
